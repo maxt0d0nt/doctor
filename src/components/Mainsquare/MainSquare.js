@@ -1,39 +1,46 @@
 import React from 'react';
-import './MainSquare.css'
+import './MainSquare.css';
+import { AiFillDribbbleCircle, AiFillFileImage, AiFillEnvironment } from 'react-icons/ai';
+import { IconContext } from "react-icons";
 
 const MainSquare = () => {
 
-    const Options = [
-         {
-            name: "Turno",
-            pic: "hola"
-        },
+  const Options = [
+    {
+      name: "Turno",
+      pic: <AiFillDribbbleCircle />
+    },
 
-         {
-            name: "Presentate",
-            pic: "hola"
-        },
+    {
+      name: "Presentate",
+      pic: <AiFillFileImage />
+    },
 
-         {
-            name: "Resultados",
-            pic: "hola"
-        },
-        {
-            name: "Resudos",
-            pic: "hola"
-        },
-
-
-    ]
+    {
+      name: "Resultados",
+      pic: <AiFillEnvironment />
+    },
+  ]
 
 
   return (
     <>
-    <div>
-       { Options.map((item, index) => (
-        <div width="20px"  >{item.name}</div>
-        ))}     
-    </div>
+      <div className="mainSquare">
+        <div className='containerIcons'>
+          {Options.map((item, index) => (
+            <div className="squareIcon">
+              <IconContext.Provider value={{ size: "5em" }}>
+                <div className='iconPic' >
+                  {item.pic}
+                </div>
+              </IconContext.Provider>
+              <div className='iconName'>
+                {item.name}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
     </>
   )
 }

@@ -82,6 +82,7 @@ a {
 
 .link:hover {
     background-color: gray;
+    border-radius: 25px;
 }
 
 /*------------------------ mobile ---------------------------*/

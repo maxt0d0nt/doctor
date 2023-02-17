@@ -1,24 +1,24 @@
 import React from 'react';
 import './MainSquare.css';
-import { AiFillDribbbleCircle, AiFillFileImage, AiFillEnvironment } from 'react-icons/ai';
+import { AiTwotoneCalendar, AiOutlineUser, AiTwotoneEdit } from 'react-icons/ai';
 import { IconContext } from "react-icons";
 
 const MainSquare = () => {
 
   const Options = [
     {
-      name: "Turno",
-      pic: <AiFillDribbbleCircle />
+      name: "AGENDAR TURNO",
+      pic: <AiTwotoneCalendar />
     },
 
     {
-      name: "Presentate",
-      pic: <AiFillFileImage />
+      name: "CONSULTA",
+      pic: <AiOutlineUser />
     },
 
     {
-      name: "Resultados",
-      pic: <AiFillEnvironment />
+      name: "RESULTADOS",
+      pic: <AiTwotoneEdit />
     },
   ]
 
@@ -26,12 +26,15 @@ const MainSquare = () => {
   return (
     <>
       <div className="mainSquare">
+        <div className='title'>
+          <h2>TU CONSULTA EN 3 SIMPLES PASOS</h2>
+        </div>
         <div className='containerIcons'>
           {Options.map((item, index) => (
-            <div className="squareIcon">
-              <IconContext.Provider value={{ size: "5em" }}>
+            <div className="squareIcon"  key={index}>
+              <IconContext.Provider value={{ size: "5em", color: "006064" }}>
                 <div className='iconPic' >
-                  {item.pic}
+                {item.pic}
                 </div>
               </IconContext.Provider>
               <div className='iconName'>

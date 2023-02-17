@@ -1,29 +1,55 @@
 .mainSquare {
     background-color: #006064;
     position: relative;
-    display: flex;
-    margin: -50px auto 0;
+    margin: -80px auto 0;
     border-radius: 20px;
-    padding: 20px 25px;
+    padding: 10px 25px;
     width: 95%;
    
 }
 
+.title{
+    color: aliceblue;
+    margin: 0 20px 20px;
+}
 .squareIcon {
     display: block;
     height: 150px;
-    width: 270px;
+    width: 220px;
     background-color: #80DEEA;
     border-radius: 15px;
-
-
+    margin: 0 20px 15px;
 }
 
 .containerIcons {
-   
+align-content: center;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
+.iconName {
+    display: flex;
+    color: #006064;
+    font-size: 24px;
+    font-family: Roboto;
+    justify-content: center;
+       
+}
+
+.iconPic {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+       
+
+}
+ 
+.squareIcon:hover {
+    background-color: #00B8D4;
+    -webkit-box-shadow: 8px 8px 24px 0px rgb(185, 186, 195);
+-moz-box-shadow: 8px 8px 24px 0px rgb(185, 186, 195);
+box-shadow: 8px 8px 24px 0px rgb(185, 186, 195);
+    ;
+}

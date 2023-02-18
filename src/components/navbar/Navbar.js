@@ -20,7 +20,7 @@ export const Navbar = () => {
 
   window.addEventListener('scroll', changebackgrond);
   return (
-    <div className='navbar'>
+    <div className='navbarHero'>
       <div className={header ? 'header active' : 'Nav'}>
         <div className='logo'>
             <img src={logo} width="50" height="50" alt='logo' />

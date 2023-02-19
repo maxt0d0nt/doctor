@@ -3,6 +3,7 @@ import Accordion from '../components/accordion/Accordion'
 import Hero from '../components/Hero/Hero'
 import MainSquare from '../components/Mainsquare/MainSquare'
 import { Navbar } from '../components/navbar/Navbar'
+import Speciality from '../components/Specialitys/Speciality'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Hero />
       <MainSquare />
       <Accordion />
+      <Speciality />
     </>
   )
 }

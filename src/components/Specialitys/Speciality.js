@@ -4,17 +4,17 @@ import './Speciality.css';
 const speciality = [
     {
         title: "Odontologia",
-        description: "corona, caries"
+        description: "corona, caries, Extracciones, amalgamas, prótesis, radiografías periapicales"
     },
 
     {
         title: "Medicina General",
-        description: "chequeo general, inyeccion"
+        description: "chequeo general, tratamientos, analisis de examenes"
     },
 
     {
         title: "Ecosonografia",
-        description: "corona, caries"
+        description: "Ginecologico, Obstetrico, Morfológio, Abdominal, Renal, Mamario, Testicular, Prostatico, Doppler"
     }
 ]
 

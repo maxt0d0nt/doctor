@@ -1,27 +1,9 @@
 import React from 'react';
 import './MainSquare.css';
-import { AiTwotoneCalendar, AiOutlineUser, AiTwotoneEdit } from 'react-icons/ai';
 import { IconContext } from "react-icons";
+import Options from '../../models/Options';
 
 const MainSquare = () => {
-
-  const Options = [
-    {
-      name: "AGENDAR TURNO",
-      pic: <AiTwotoneCalendar />
-    },
-
-    {
-      name: "CONSULTA",
-      pic: <AiOutlineUser />
-    },
-
-    {
-      name: "RESULTADOS",
-      pic: <AiTwotoneEdit />
-    },
-  ]
-
 
   return (
     <>

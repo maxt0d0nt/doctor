@@ -3,13 +3,13 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  background-image: url('../../assets/img/patterBG.png');
+  background-image: url("../../assets/img/patterBG.png");
   padding: 50px;
 }
 
 h1 {
   margin-top: 30px;
-  display: block
+  display: block;
 }
 
 .flip-card {
@@ -61,6 +61,6 @@ h1 {
 }
 
 .flip-card-back {
-  background: #5CB5B5;
+  background: #5cb5b5;
   transform: rotateY(180deg);
 }

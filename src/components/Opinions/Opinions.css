@@ -1,19 +1,17 @@
-@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
-.Carrusel{
-  
+.Carrusel {
   width: 80%;
-  
-padding: 50px 0;
- margin: auto
+
+  padding: 50px 0;
+  margin: auto;
 }
 
 .opinionContainer {
   background-image: url("../../assets/img/national-cancer-institute-701-FJcjLAQ-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 /* this card is inspired form this - https://georgefrancis.dev/ */
@@ -73,7 +71,7 @@ padding: 50px 0;
 /* hover */
 .card:hover .card__title {
   color: var(--primary-color);
-  text-decoration: none
+  text-decoration: none;
 }
 
 .card:hover .card__arrow {

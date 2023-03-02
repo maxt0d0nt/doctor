@@ -7,7 +7,7 @@ import { IconContext } from 'react-icons';
 const Footer = () => {
     return (
         <>
-            <div className='footer-container'>
+            <div className='footer-container' id='footer'>
                 <div className='section-footer-1'>
                     <div className='logo-footer'>
                         <img src={logo} alt="logo-img" className='logo-img'/>

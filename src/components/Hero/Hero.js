@@ -17,7 +17,7 @@ const Hero = () => {
             es lo mas importante
           </h1>
         </div>
-        <div className="mainLinks">
+      <div className="mainLinks">
           <button className="btn" id="btn-up">
             Odontologia
           </button>

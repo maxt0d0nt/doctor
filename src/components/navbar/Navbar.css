@@ -8,6 +8,7 @@
   font-size: 14px;
   font-family: Imperial Script;
   color: var(--my-black);
+  width: 100%;
 }
 
 .navbarHero {
@@ -24,8 +25,8 @@
   opacity: 0.7;
   border-bottom: var(--my-white) 1px solid;
   transition: 0.7s;
+  padding: 0 20px;
 }
-
 
 .header.active {
   background-color: var(--my-white);
@@ -37,12 +38,19 @@
   border-bottom: var(--my-white) 1px solid;
   transition: 0.7s;
   z-index: 90;
+  padding: 0 20px;
+}
+
+.logoImg {
+  display: inline-block;
 }
 
 .logo {
   font-size: 30px;
   padding-top: 10px;
   padding-left: 25px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .logoName {
@@ -63,7 +71,10 @@
   padding: 10px 10px;
   margin: 0;
   cursor: pointer;
-  
+}
+
+.link a:hover {
+  color: var(--my-black);
 }
 
 a {
@@ -85,8 +96,8 @@ a {
 .link:hover {
   background-color: gray;
   border-radius: 25px;
+  color: var(--my-white);
 }
-
 /*------------------------ mobile ---------------------------*/
 
 @media screen and (max-width: 768px) {

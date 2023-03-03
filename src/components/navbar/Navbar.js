@@ -22,7 +22,13 @@ export const Navbar = () => {
     <div className="navbarHero">
       <div className={header ? "header active" : "Nav"}>
         <div className="logo">
-          <img src={logo} width="50" height="50" alt="logo" />
+          <img
+            src={logo}
+            width="50"
+            height="50"
+            alt="logo"
+            className="logoImg"
+          />
           <a href="#home" className="link-logo">
             Consultorios Yolanda Delgado
           </a>

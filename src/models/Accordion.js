@@ -5,7 +5,7 @@ const AccordionItems = [
     id_aria: "flush-collapseOne",
     title: "Personal de atención excepcional",
     description:
-      "si sus médicos y enfermeros son amables, compasivos y brindan un servicio excepcional, los pacientes se sentirán más cómodos y valorados.",
+      "Personal amables que brindan un servicio excepcional, usted se sentirá cómodos y valorado.",
   },
   {
     id: "headingTwo",
@@ -13,7 +13,7 @@ const AccordionItems = [
     id_aria: "collapseTwo",
     title: "Conveniencia",
     description:
-      "si su consultorio está convenientemente ubicado y ofrece horarios flexibles, los pacientes podrán acceder a sus servicios de manera más fácil.",
+      "Consultorio convenientemente ubicado y ofrece horarios flexibles, los pacientes podrán acceder a los servicios de manera más fácil.",
   },
   {
     id: "headingThree",
@@ -21,7 +21,7 @@ const AccordionItems = [
     id_aria: "collapseThree",
     title: "Calidad de atención médica",
     description:
-      "si su consultorio ofrece una atención médica de alta calidad y utiliza tecnología avanzada, los pacientes tendrán más confianza en el tratamiento que reciben",
+      "OFRECEMOS una atención médica de alta calidad y utiliza tecnología avanzada, para mayor confianza en el tratamiento que recibe.",
   },
   {
     id: "headingFour",
@@ -29,7 +29,7 @@ const AccordionItems = [
     id_aria: "collapseFour",
     title: "Reputación",
     description:
-      "si su consultorio tiene una buena reputación en la comunidad, los pacientes estarán más inclinados a elegirlo sobre otros",
+      "Excelente reputación en la comunidad y nuestros los pacientes.",
   },
   {
     id: "headingFive",
@@ -37,7 +37,7 @@ const AccordionItems = [
     id_aria: "collapseFive",
     title: "Precios Razonables",
     description:
-      "si su consultorio ofrece precios razonables y opciones de pago asequibles, los pacientes estarán más dispuestos a elegir su consultorio sobre otros",
+      "Precios razonables y opciones de pago asequibles, para no dejar de la su salud que para nosotros es lo que mas importa.",
   },
 ];
 
